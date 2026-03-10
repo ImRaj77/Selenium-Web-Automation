@@ -16,6 +16,8 @@ public class TestDemo {
 		// Select the product which contains Shirt and add the same into cart and assert
 		// that It has been added in the cart or not
 		
+		// Add to cart buttton 
+		// //div[contains(text(),'Jacket')]/ancestor::div[@class='inventory_item']//button
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.saucedemo.com/inventory.html");
 		Thread.sleep(5000);
